@@ -1,0 +1,36 @@
+{
+    "name": "f-theme",
+    "displayName": "F Theme",
+    "description": "Theme for pros",
+    "publisher": "Hasibur Rahman",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "author": {
+        "name": "Hasibur Rahman"
+    },
+    "icon": "images/Logo.png",
+    "keywords": [
+        "F Theme"
+    ],
+    "dependencies": {
+        "vsce": "^2.15.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HasibX2000/F_Theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "F Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/F Theme-color-theme.json"
+            }
+        ]
+    }
+}
