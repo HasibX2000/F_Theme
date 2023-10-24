@@ -2,7 +2,7 @@
   "name": "f-theme",
   "displayName": "F Theme",
   "description": "All themes in one place",
-  "publisher": "Hasibur Rahman",
+  "publisher": "HasibX2000",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.0.0"
@@ -106,44 +106,32 @@
       {
         "label": "F Gruvbox Dark Medium",
         "uiTheme": "vs-dark",
-        "path": "./themes/f-gruvbox-dark-medium.json",
-        "subtype": "medium",
-        "make": true
+        "path": "./themes/f-gruvbox-dark-medium.json"
       },
       {
         "label": "F Gruvbox Dark Hard",
         "uiTheme": "vs-dark",
-        "path": "./themes/f-gruvbox-dark-hard.json",
-        "subtype": "hard",
-        "make": true
+        "path": "./themes/f-gruvbox-dark-hard.json"
       },
       {
         "label": "F Gruvbox Dark Soft",
         "uiTheme": "vs-dark",
-        "path": "./themes/f-gruvbox-dark-soft.json",
-        "subtype": "soft",
-        "make": true
+        "path": "./themes/f-gruvbox-dark-soft.json"
       },
       {
         "label": "F Gruvbox Light Medium",
         "uiTheme": "vs",
-        "path": "./themes/f-gruvbox-light-medium.json",
-        "subtype": "medium",
-        "make": true
+        "path": "./themes/f-gruvbox-light-medium.json"
       },
       {
         "label": "F Gruvbox Light Hard",
         "uiTheme": "vs",
-        "path": "./themes/f-gruvbox-light-hard.json",
-        "subtype": "hard",
-        "make": true
+        "path": "./themes/f-gruvbox-light-hard.json"
       },
       {
         "label": "F Gruvbox Light Soft",
         "uiTheme": "vs",
-        "path": "./themes/f-gruvbox-light-soft.json",
-        "subtype": "soft",
-        "make": true
+        "path": "./themes/f-gruvbox-light-soft.json"
       },
       {
         "label": "F Ubuntu Dark",
@@ -363,7 +351,7 @@
       {
         "label": "F Dracula At Night",
         "uiTheme": "vs-dark",
-        "path": "./theme/dracula-at-night.json"
+        "path": "./themes/dracula-at-night.json"
       },
       {
         "label": "F Bearded Theme Monokai Metallian",
@@ -693,7 +681,7 @@
       {
         "label": "F Nebula",
         "uiTheme": "vs-dark",
-        "path": "./out/src/nebula-color-theme.json"
+        "path": "./themes/nebula-color-theme.json"
       },
       {
         "label": "F Nebula - Console",
@@ -3249,11 +3237,11 @@
         "label": "Warfaze Edition : Warm - Viserion",
         "uiTheme": "vs-dark",
         "path": "./themes/f-warfaze-dark-matter-warm-viserion-color-theme.json"
-      },     
+      },
       {
         "label": "F Special : Dracula Sweet Edition",
         "uiTheme": "vs-dark",
-        "path": "theme/sweetdracula-color-theme.json"
+        "path": "./themes/sweetdracula-color-theme.json"
       },
       {
         "label": "F Hunter Theme",
@@ -3463,7 +3451,7 @@
       {
         "label": "F Tinacious Design",
         "uiTheme": "vs-dark",
-        "path": "/themes/Tinacious Design-color-theme.json"
+        "path": "./themes/Tinacious Design-color-theme.json"
       },
       {
         "label": "F Tinacious Design (Light)",
@@ -3483,7 +3471,7 @@
       {
         "label": "F Tinacious Design (High Contrast)",
         "uiTheme": "vs-dark",
-        "path": "/themes/Tinacious-Design-High-Contrast-color-theme.json"
+        "path": "./themes/Tinacious-Design-High-Contrast-color-theme.json"
       },
       {
         "label": "F Special : Panda Syntax",
