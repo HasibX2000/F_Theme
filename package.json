@@ -3249,12 +3249,7 @@
         "label": "Warfaze Edition : Warm - Viserion",
         "uiTheme": "vs-dark",
         "path": "./themes/f-warfaze-dark-matter-warm-viserion-color-theme.json"
-      },
-      {
-        "label": "F Special : JellyFish",
-        "uiTheme": "vs-dark",
-        "path": "./themes/JellyFish.json"
-      },
+      },     
       {
         "label": "F Special : Dracula Sweet Edition",
         "uiTheme": "vs-dark",
