@@ -1,7 +1,7 @@
 {
   "name": "f-theme",
   "displayName": "F Theme",
-  "description": "All theme in one place",
+  "description": "All themes in one place",
   "publisher": "Hasibur Rahman",
   "version": "0.0.1",
   "engines": {
@@ -15,7 +15,19 @@
   },
   "icon": "images/Logo.png",
   "keywords": [
-    "F Theme"
+    "F Theme",
+    "Dracula",
+    "Sweet",
+    "Sweet Dracula",
+    "Neon Theme",
+    "Dracula Pro",
+    "Andromeda",
+    "Synthwave",
+    "Bearded",
+    "Beautiful",
+    "Elegant",
+    "New Theme",
+    "Hacker Theme"
   ],
   "dependencies": {
     "vsce": "^2.15.0"
