@@ -1,36 +1,2568 @@
 {
-    "name": "f-theme",
-    "displayName": "F Theme",
-    "description": "Theme for pros",
-    "publisher": "Hasibur Rahman",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "author": {
-        "name": "Hasibur Rahman"
-    },
-    "icon": "images/Logo.png",
-    "keywords": [
-        "F Theme"
-    ],
-    "dependencies": {
-        "vsce": "^2.15.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/HasibX2000/F_Theme.git"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "F Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/F Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "f-theme",
+  "displayName": "F Theme",
+  "description": "Theme for pros",
+  "publisher": "Hasibur Rahman",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "author": {
+    "name": "Hasibur Rahman"
+  },
+  "icon": "images/Logo.png",
+  "keywords": [
+    "F Theme"
+  ],
+  "dependencies": {
+    "vsce": "^2.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HasibX2000/F_Theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "F Special : Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula.json"
+      },
+      {
+        "label": "F Special : Calamity",
+        "uiTheme": "vs-dark",
+        "path": "./themes/calamity.json"
+      },
+      {
+        "label": "F Green Hacker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/greenhacker.json"
+      },
+      {
+        "label": "F Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon.json"
+      },
+      {
+        "label": "F Special : Andromeda Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-color-theme.json"
+      },
+      {
+        "label": "F Andromeda Bordered Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-color-theme-bordered.json"
+      },
+      {
+        "label": "F Andromeda Italic Bordered Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-italic-color-theme-bordered.json"
+      },
+      {
+        "label": "F Andromeda Italic Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-italic-color-theme.json"
+      },
+      {
+        "label": "F Andromeda Colorizer Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Andromeda-colorizer.json"
+      },
+      {
+        "label": "F Blue Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blu-vibrant.json"
+      },
+      {
+        "label": "F Dark Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blk-vibrant.json"
+      },
+      {
+        "label": "F Snazzy Operator",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snazzy-operator.json"
+      },
+      {
+        "label": "F Special : Synthwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/synthwave-color-theme"
+      },
+      {
+        "label": "F Gruvbox Dark Medium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-gruvbox-dark-medium.json",
+        "subtype": "medium",
+        "make": true
+      },
+      {
+        "label": "F Gruvbox Dark Hard",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-gruvbox-dark-hard.json",
+        "subtype": "hard",
+        "make": true
+      },
+      {
+        "label": "F Gruvbox Dark Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-gruvbox-dark-soft.json",
+        "subtype": "soft",
+        "make": true
+      },
+      {
+        "label": "F Gruvbox Light Medium",
+        "uiTheme": "vs",
+        "path": "./themes/f-gruvbox-light-medium.json",
+        "subtype": "medium",
+        "make": true
+      },
+      {
+        "label": "F Gruvbox Light Hard",
+        "uiTheme": "vs",
+        "path": "./themes/f-gruvbox-light-hard.json",
+        "subtype": "hard",
+        "make": true
+      },
+      {
+        "label": "F Gruvbox Light Soft",
+        "uiTheme": "vs",
+        "path": "./themes/f-gruvbox-light-soft.json",
+        "subtype": "soft",
+        "make": true
+      },
+      {
+        "label": "F Ubuntu Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yaru-dark.json"
+      },
+      {
+        "label": "F Ubuntu Dark Grape",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yaru-dark-grape.json"
+      },
+      {
+        "label": "F Ubuntu Dark Pumpkin",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yaru-dark-pumpkin.json"
+      },
+      {
+        "label": "F Tokyo Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-neon-color-theme.json"
+      },
+      {
+        "label": "F Snazzy Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snazzy-operator-color-theme.json"
+      },
+      {
+        "label": "F Snazzy Plus - Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snazzy-operator-color-theme-dark.json"
+      },
+      {
+        "label": "F Snazzy Plus w/ Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snazzy-operator-color-theme-italics.json"
+      },
+      {
+        "label": "F Snazzy Plus - Darker w/ Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snazzy-operator-color-theme-dark-italics.json"
+      },
+      {
+        "label": "F Nocterial Palenight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nocterial-palenight.json"
+      },
+      {
+        "label": "F JetBrains Darcula Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JetBrains-Darcula-Theme-color-theme.json"
+      },
+      {
+        "label": "F FireFly Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/firefly-pro.json"
+      },
+      {
+        "label": "F FireFly Pro Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/firefly-pro-midnight.json"
+      },
+      {
+        "label": "F FireFly Pro Bright",
+        "uiTheme": "vs-dark",
+        "path": "./themes/firefly-pro-bright.json"
+      },
+      {
+        "label": "F 1987 Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/1987-color-theme.json"
+      },
+      {
+        "label": "F Special : Houston",
+        "uiTheme": "vs-dark",
+        "path": "./themes/houston.json"
+      },
+      {
+        "label": "F Moonlight II",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight-ii.json"
+      },
+      {
+        "label": "F Moonlight II Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight-ii-italic.json"
+      },
+      {
+        "label": "F Special : Moonlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight.json"
+      },
+      {
+        "label": "F Moonlight Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight-italic.json"
+      },
+      {
+        "label": "F Special : Arctis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-color-theme.json"
+      },
+      {
+        "label": "F Arctis - No Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-NoItalics-color-theme.json"
+      },
+      {
+        "label": "F Arctis Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-Dark-color-theme.json"
+      },
+      {
+        "label": "F Arctis Dark - No Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-Dark-NoItalics-color-theme.json"
+      },
+      {
+        "label": "F Arctis Dark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-Dark-Plus-color-theme.json"
+      },
+      {
+        "label": "F Arctis Dark+ - No Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-Dark-Plus-NoItalics-color-theme.json"
+      },
+      {
+        "label": "F Arctis Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-Moon-color-theme.json"
+      },
+      {
+        "label": "F Arctis Moon - No Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-Moon-NoItalics-color-theme.json"
+      },
+      {
+        "label": "F Arctis Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-Night-color-theme.json"
+      },
+      {
+        "label": "F Arctis Night - No Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-Night-NoItalics-color-theme.json"
+      },
+      {
+        "label": "F Arctis High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-HighContrast-color-theme.json"
+      },
+      {
+        "label": "F Arctis High Contrast - No Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arctis-HighContrast-NoItalics-color-theme.json"
+      },
+      {
+        "label": "F Arctis Light",
+        "uiTheme": "vs",
+        "path": "./themes/Arctis-Light-color-theme.json"
+      },
+      {
+        "label": "F Arctis Light - No Italics",
+        "uiTheme": "vs",
+        "path": "./themes/Arctis-Light-NoItalics-color-theme.json"
+      },
+      {
+        "label": "F Fantom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom.json"
+      },
+      {
+        "label": "F Fantom (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-italic.json"
+      },
+      {
+        "label": "F Fantom Mirage",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-mirage.json"
+      },
+      {
+        "label": "F Fantom Mirage (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-mirage-italic.json"
+      },
+      {
+        "label": "F Fantom II",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-2.json"
+      },
+      {
+        "label": "F Fantom II (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-2-italic.json"
+      },
+      {
+        "label": "F Fantom II Mirage",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-2-mirage.json"
+      },
+      {
+        "label": "F Fantom II Mirage (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-2-mirage-italic.json"
+      },
+      {
+        "label": "F Fantom II Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-2-dark.json"
+      },
+      {
+        "label": "F Fantom II Dark (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-fantom-2-dark-italic.json"
+      },
+      {
+        "label": "F Dracula At Night",
+        "uiTheme": "vs-dark",
+        "path": "./theme/dracula-at-night.json"
+      },
+      {
+        "label": "F Bearded Theme Monokai Metallian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-monokai-metallian.json"
+      },
+      {
+        "label": "F Bearded Theme Monokai Terra",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-monokai-terra.json"
+      },
+      {
+        "label": "F Bearded Theme Monokai Stone",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-monokai-stone.json"
+      },
+      {
+        "label": "F Bearded Theme Monokai Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-monokai-black.json"
+      },
+      {
+        "label": "F Bearded Theme Monokai Reversed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-monokai-reversed.json"
+      },
+      {
+        "label": "F Bearded Theme Solarized",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-solarized-dark.json"
+      },
+      {
+        "label": "F Bearded Theme Solarized Reversed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-solarized-reversed.json"
+      },
+      {
+        "label": "F Bearded Theme Solarized Light",
+        "uiTheme": "vs",
+        "path": "./themes/bearded-theme-solarized-light.json"
+      },
+      {
+        "label": "F Bearded Theme Oceanic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-oceanic.json"
+      },
+      {
+        "label": "F Bearded Theme Oceanic Reversed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-oceanic-reversed.json"
+      },
+      {
+        "label": "F Bearded Theme Arc",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-arc.json"
+      },
+      {
+        "label": "F Bearded Theme Arc Eggplant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-arc-eggplant.json"
+      },
+      {
+        "label": "F Bearded Theme Arc EolStorm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-arc-eolstorm.json"
+      },
+      {
+        "label": "F Bearded Theme Arc Blueberry",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-arc-blueberry.json"
+      },
+      {
+        "label": "F Bearded Theme Arc Reversed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-arc-reversed.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Amethyst",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-amethyst.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Amethyst Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-amethyst-soft.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Diamond",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-diamond.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Diamond Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-diamond-soft.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Emerald",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-emerald.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Emerald Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-emerald-soft.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Gold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-gold.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Gold Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-gold-soft.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Ruby",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-ruby.json"
+      },
+      {
+        "label": "F Bearded Theme Black & Ruby Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-black-ruby-soft.json"
+      },
+      {
+        "label": "F Bearded Theme Stained Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-stained-purple.json"
+      },
+      {
+        "label": "F Bearded Theme Stained Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-stained-blue.json"
+      },
+      {
+        "label": "F Bearded Theme Vivid Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-vivid-purple.json"
+      },
+      {
+        "label": "F Bearded Theme Vivid Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-vivid-black.json"
+      },
+      {
+        "label": "F Bearded Theme Vivid Light",
+        "uiTheme": "vs",
+        "path": "./themes/bearded-theme-vivid-light.json"
+      },
+      {
+        "label": "F Bearded Theme feat. Will",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-will.json"
+      },
+      {
+        "label": "F Bearded Theme feat. Gold D Raynh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-gold-d-raynh.json"
+      },
+      {
+        "label": "F Bearded Theme feat. Melle Julie",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-mellejulie.json"
+      },
+      {
+        "label": "F Bearded Theme feat. Melle Julie Light",
+        "uiTheme": "vs",
+        "path": "./themes/bearded-theme-mellejulie-light.json"
+      },
+      {
+        "label": "F Bearded Theme feat. Mintshake D Raynh",
+        "uiTheme": "vs",
+        "path": "./themes/bearded-theme-gold-d-raynh-light.json"
+      },
+      {
+        "label": "F Bearded Theme Earth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-exotic-earth.json"
+      },
+      {
+        "label": "F Bearded Theme Coffee",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-coffee.json"
+      },
+      {
+        "label": "F Bearded Theme Coffee Reversed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-coffee-reversed.json"
+      },
+      {
+        "label": "F Bearded Theme Coffee Cream",
+        "uiTheme": "vs",
+        "path": "./themes/bearded-theme-coffee-cream.json"
+      },
+      {
+        "label": "F Bearded Theme Void",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-exotic-void.json"
+      },
+      {
+        "label": "F Bearded Theme Altica",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-exotic-altica.json"
+      },
+      {
+        "label": "F Bearded Theme Anthracite",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-classics-anthracite.json"
+      },
+      {
+        "label": "F Bearded Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/bearded-theme-classics-light.json"
+      },
+      {
+        "label": "F Bearded Theme Surprising Eggplant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-surprising-eggplant.json"
+      },
+      {
+        "label": "F Bearded Theme Surprising Blueberry",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-surprising-blueberry.json"
+      },
+      {
+        "label": "F Bearded Theme Surprising Watermelon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bearded-theme-surprising-watermelon.json"
+      },
+      {
+        "label": "F Bearded Theme HC Ebony",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-hc-ebony.json"
+      },
+      {
+        "label": "F Bearded Theme HC Midnight Void",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-hc-midnightvoid.json"
+      },
+      {
+        "label": "F Bearded Theme HC Wonderland Wood",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-hc-wonderland-wood.json"
+      },
+      {
+        "label": "F Bearded Theme HC Brewing Storm",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-hc-brewing-storm.json"
+      },
+      {
+        "label": "F Bearded Theme HC Minuit",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-hc-minuit.json"
+      },
+      {
+        "label": "F Bearded Theme HC Chocolate Espresso",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-hc-chocolateespresso.json"
+      },
+      {
+        "label": "F Bearded Theme HC Flurry",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-hc-flurry.json"
+      },
+      {
+        "label": "F Bearded Theme Milkshake Raspberry",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-milkshake-raspberry.json"
+      },
+      {
+        "label": "F Bearded Theme Milkshake Blueberry",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-milkshake-blueberry.json"
+      },
+      {
+        "label": "F Bearded Theme Milkshake Mango",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-milkshake-mango.json"
+      },
+      {
+        "label": "F Bearded Theme Milkshake Mint",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-milkshake-mint.json"
+      },
+      {
+        "label": "F Bearded Theme Milkshake Vanilla Banana",
+        "uiTheme": "hc-black",
+        "path": "./themes/bearded-theme-milkshake-vanilla.json"
+      },
+      {
+        "label": "F Monokai Alt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-alt-color-theme.json"
+      },
+      {
+        "label": "F Midnight Pastel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Midnight Pastel-color-theme.json"
+      },
+      {
+        "label": "F Lunar Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lunar-dark-color-theme.json"
+      },
+      {
+        "label": "F Lunar Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lunar-midnight-color-theme.json"
+      },
+      {
+        "label": "F Material Neutral",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MaterialNeutral.json"
+      },
+      {
+        "label": "F Halcyon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/halcyon-color-theme.json"
+      },
+      {
+        "label": "F Hacker Theme Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hacker-Theme-color-theme.json"
+      },
+      {
+        "label": "F Nebula",
+        "uiTheme": "vs-dark",
+        "path": "./out/src/nebula-color-theme.json"
+      },
+      {
+        "label": "F Nebula - Console",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nebula-color-theme-console.json"
+      },
+      {
+        "label": "F Atom Plus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/atomplus.json"
+      },
+      {
+        "label": "F Cyber '77",
+        "uiTheme": "vs-dark",
+        "path": "./themes/synthwave-neon-color-theme.json"
+      },
+      {
+        "label": "F Aura Night Meets Synthwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-aura-night-color-theme.json"
+      },
+      {
+        "label": "F Aura Electric Meets Synthwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-aura-electric-color-theme.json"
+      },
+      {
+        "label": "F Spacemacs - light",
+        "uiTheme": "vs",
+        "path": "./themes/Spacemacs-light-color-theme.json"
+      },
+      {
+        "label": "F Spacemacs - dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Spacemacs-dark-color-theme.json"
+      },
+      {
+        "label": "F Bear Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bear-color-theme.json"
+      },
+      {
+        "label": "F Aura Dark (Soft Text)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-soft-text-color-theme.json"
+      },
+      {
+        "label": "F Aura Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-dark-color-theme.json"
+      },
+      {
+        "label": "F Aura Soft Dark (Soft Text)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-soft-dark-soft-text-color-theme.json"
+      },
+      {
+        "label": "F Aura Soft Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aura-soft-dark-color-theme.json"
+      },
+      {
+        "label": "F Absent Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/absent-contrast.json"
+      },
+      {
+        "label": "F Absent Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/absent.json"
+      },
+      {
+        "label": "F Absent Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/absent-light.json"
+      },
+      {
+        "label": "F Allure Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/allure-contrast.json"
+      },
+      {
+        "label": "F Allure Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/allure.json"
+      },
+      {
+        "label": "F Allure Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/allure-light.json"
+      },
+      {
+        "label": "F Arstotzka Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arstotzka-contrast.json"
+      },
+      {
+        "label": "F Arstotzka Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arstotzka.json"
+      },
+      {
+        "label": "F Arstotzka Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/arstotzka-light.json"
+      },
+      {
+        "label": "F Azure Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/azure-contrast.json"
+      },
+      {
+        "label": "F Azure Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/azure.json"
+      },
+      {
+        "label": "F Azure Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/azure-light.json"
+      },
+      {
+        "label": "F Banner Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/banner-contrast.json"
+      },
+      {
+        "label": "F Banner Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/banner.json"
+      },
+      {
+        "label": "F Banner Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/banner-light.json"
+      },
+      {
+        "label": "F Blink Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blink-contrast.json"
+      },
+      {
+        "label": "F Blink Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blink.json"
+      },
+      {
+        "label": "F Blink Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/blink-light.json"
+      },
+      {
+        "label": "F Bold Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bold-contrast.json"
+      },
+      {
+        "label": "F Bold Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bold.json"
+      },
+      {
+        "label": "F Bold Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/bold-light.json"
+      },
+      {
+        "label": "F Box UK Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boxuk-contrast.json"
+      },
+      {
+        "label": "F Box UK Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boxuk.json"
+      },
+      {
+        "label": "F Box UK Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/boxuk-light.json"
+      },
+      {
+        "label": "F Brave Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/brave-contrast.json"
+      },
+      {
+        "label": "F Brave Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/brave.json"
+      },
+      {
+        "label": "F Brave Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/brave-light.json"
+      },
+      {
+        "label": "F Carbonight Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbonight-contrast.json"
+      },
+      {
+        "label": "F Carbonight Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carbonight.json"
+      },
+      {
+        "label": "F Carbonight Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/carbonight-light.json"
+      },
+      {
+        "label": "F Chocolate Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chocolate-contrast.json"
+      },
+      {
+        "label": "F Chocolate Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chocolate.json"
+      },
+      {
+        "label": "F Chocolate Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/chocolate-light.json"
+      },
+      {
+        "label": "F Codecourse Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/codecourse-contrast.json"
+      },
+      {
+        "label": "F Codecourse Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/codecourse.json"
+      },
+      {
+        "label": "F Codecourse Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/codecourse-light.json"
+      },
+      {
+        "label": "F Coffee Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/coffee-contrast.json"
+      },
+      {
+        "label": "F Coffee Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/coffee.json"
+      },
+      {
+        "label": "F Coffee Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/coffee-light.json"
+      },
+      {
+        "label": "F Comrade Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/comrade-contrast.json"
+      },
+      {
+        "label": "F Comrade Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/comrade.json"
+      },
+      {
+        "label": "F Comrade Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/comrade-light.json"
+      },
+      {
+        "label": "F Crackpot Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crackpot-contrast.json"
+      },
+      {
+        "label": "F Crackpot Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crackpot.json"
+      },
+      {
+        "label": "F Crackpot Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/crackpot-light.json"
+      },
+      {
+        "label": "F Crisp Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crisp-contrast.json"
+      },
+      {
+        "label": "F Crisp Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crisp.json"
+      },
+      {
+        "label": "F Crisp Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/crisp-light.json"
+      },
+      {
+        "label": "F Dare Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dare-contrast.json"
+      },
+      {
+        "label": "F Dare Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dare.json"
+      },
+      {
+        "label": "F Dare Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/dare-light.json"
+      },
+      {
+        "label": "F Darkside Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkside-contrast.json"
+      },
+      {
+        "label": "F Darkside Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkside.json"
+      },
+      {
+        "label": "F Darkside Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/darkside-light.json"
+      },
+      {
+        "label": "F Downpour Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/downpour-contrast.json"
+      },
+      {
+        "label": "F Downpour Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/downpour.json"
+      },
+      {
+        "label": "F Downpour Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/downpour-light.json"
+      },
+      {
+        "label": "F Earthsong Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/earthsong-contrast.json"
+      },
+      {
+        "label": "F Earthsong Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/earthsong.json"
+      },
+      {
+        "label": "F Fodder Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fodder-contrast.json"
+      },
+      {
+        "label": "F Fodder Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fodder.json"
+      },
+      {
+        "label": "F Fodder Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/fodder-light.json"
+      },
+      {
+        "label": "F Frantic Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/frantic-contrast.json"
+      },
+      {
+        "label": "F Frantic Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/frantic.json"
+      },
+      {
+        "label": "F Frantic Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/frantic-light.json"
+      },
+      {
+        "label": "F Earthsong Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/earthsong-light.json"
+      },
+      {
+        "label": "F Freshcut Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/freshcut-contrast.json"
+      },
+      {
+        "label": "F Freshcut Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/freshcut.json"
+      },
+      {
+        "label": "F Freshcut Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/freshcut-light.json"
+      },
+      {
+        "label": "F Friction Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/friction-contrast.json"
+      },
+      {
+        "label": "F Friction Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/friction.json"
+      },
+      {
+        "label": "F Friction Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/friction-light.json"
+      },
+      {
+        "label": "F Frontier Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/frontier-contrast.json"
+      },
+      {
+        "label": "F Frontier Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/frontier.json"
+      },
+      {
+        "label": "F Frontier Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/frontier-light.json"
+      },
+      {
+        "label": "F Github Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github-contrast.json"
+      },
+      {
+        "label": "F Github Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github.json"
+      },
+      {
+        "label": "F Github Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/github-light.json"
+      },
+      {
+        "label": "F Glance Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/glance-contrast.json"
+      },
+      {
+        "label": "F Glance Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/glance.json"
+      },
+      {
+        "label": "F Glance Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/glance-light.json"
+      },
+      {
+        "label": "F Gloom Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gloom-contrast.json"
+      },
+      {
+        "label": "F Gloom Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gloom.json"
+      },
+      {
+        "label": "F Gloom Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/gloom-light.json"
+      },
+      {
+        "label": "F Glowfish Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/glowfish-contrast.json"
+      },
+      {
+        "label": "F Glowfish Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/glowfish.json"
+      },
+      {
+        "label": "F Glowfish Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/glowfish-light.json"
+      },
+      {
+        "label": "F Goldfish Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/goldfish.json"
+      },
+      {
+        "label": "F Goldfish Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/goldfish-light.json"
+      },
+      {
+        "label": "F Grunge Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/grunge-contrast.json"
+      },
+      {
+        "label": "F Grunge Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/grunge.json"
+      },
+      {
+        "label": "F Grunge Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/grunge-light.json"
+      },
+      {
+        "label": "F Halflife Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/halflife-contrast.json"
+      },
+      {
+        "label": "F Halflife Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/halflife.json"
+      },
+      {
+        "label": "F Halflife Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/halflife-light.json"
+      },
+      {
+        "label": "F Hawaii Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hawaii-contrast.json"
+      },
+      {
+        "label": "F Hawaii Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hawaii.json"
+      },
+      {
+        "label": "F Hawaii Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/hawaii-light.json"
+      },
+      {
+        "label": "F Heroku Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/heroku-contrast.json"
+      },
+      {
+        "label": "F Heroku Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/heroku.json"
+      },
+      {
+        "label": "F Heroku Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/heroku-light.json"
+      },
+      {
+        "label": "F Hive Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hive-contrast.json"
+      },
+      {
+        "label": "F Hive Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hive.json"
+      },
+      {
+        "label": "F Hive Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/hive-light.json"
+      },
+      {
+        "label": "F Horizon Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon-contrast.json"
+      },
+      {
+        "label": "F Horizon Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon.json"
+      },
+      {
+        "label": "F Horizon Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/horizon-light.json"
+      },
+      {
+        "label": "F Hub Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hub-contrast.json"
+      },
+      {
+        "label": "F Hub Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hub.json"
+      },
+      {
+        "label": "F Hub Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/hub-light.json"
+      },
+      {
+        "label": "F Hyrule Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hyrule-contrast.json"
+      },
+      {
+        "label": "F Hyrule Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hyrule.json"
+      },
+      {
+        "label": "F Hyrule Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/hyrule-light.json"
+      },
+      {
+        "label": "F Iceberg Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/iceberg-contrast.json"
+      },
+      {
+        "label": "F Iceberg Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/iceberg.json"
+      },
+      {
+        "label": "F Iceberg Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/iceberg-light.json"
+      },
+      {
+        "label": "F Isotope Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/isotope-contrast.json"
+      },
+      {
+        "label": "F Isotope Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/isotope.json"
+      },
+      {
+        "label": "F Isotope Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/isotope-light.json"
+      },
+      {
+        "label": "F Jewel Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jewel-contrast.json"
+      },
+      {
+        "label": "F Jewel Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jewel.json"
+      },
+      {
+        "label": "F Jewel Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/jewel-light.json"
+      },
+      {
+        "label": "F Jingle Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jingle-contrast.json"
+      },
+      {
+        "label": "F Jingle Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jingle.json"
+      },
+      {
+        "label": "F Jingle Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/jingle-light.json"
+      },
+      {
+        "label": "F Joker Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/joker-contrast.json"
+      },
+      {
+        "label": "F Joker Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/joker.json"
+      },
+      {
+        "label": "F Joker Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/joker-light.json"
+      },
+      {
+        "label": "F Juicy Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/juicy-contrast.json"
+      },
+      {
+        "label": "F Juicy Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/juicy.json"
+      },
+      {
+        "label": "F Juicy Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/juicy-light.json"
+      },
+      {
+        "label": "F Jumper Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jumper-contrast.json"
+      },
+      {
+        "label": "F Jumper Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jumper.json"
+      },
+      {
+        "label": "F Jumper Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/jumper-light.json"
+      },
+      {
+        "label": "F Keen Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/keen-contrast.json"
+      },
+      {
+        "label": "F Keen Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/keen.json"
+      },
+      {
+        "label": "F Keen Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/keen-light.json"
+      },
+      {
+        "label": "F Kiwi Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kiwi-contrast.json"
+      },
+      {
+        "label": "F Kiwi Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kiwi.json"
+      },
+      {
+        "label": "F Kiwi Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/kiwi-light.json"
+      },
+      {
+        "label": "F Laracasts Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/laracasts-contrast.json"
+      },
+      {
+        "label": "F Laracasts Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/laracasts.json"
+      },
+      {
+        "label": "F Laracasts Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/laracasts-light.json"
+      },
+      {
+        "label": "F Laravel Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/laravel-contrast.json"
+      },
+      {
+        "label": "F Laravel Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/laravel.json"
+      },
+      {
+        "label": "F Laravel Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/laravel-light.json"
+      },
+      {
+        "label": "F Lavender Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lavender-contrast.json"
+      },
+      {
+        "label": "F Lavender Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lavender.json"
+      },
+      {
+        "label": "F Lavender Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/lavender-light.json"
+      },
+      {
+        "label": "F Legacy Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/legacy-contrast.json"
+      },
+      {
+        "label": "F Legacy Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/legacy.json"
+      },
+      {
+        "label": "F Legacy Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/legacy-light.json"
+      },
+      {
+        "label": "F Lichen Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lichen-contrast.json"
+      },
+      {
+        "label": "F Lichen Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lichen.json"
+      },
+      {
+        "label": "F Lichen Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/lichen-light.json"
+      },
+      {
+        "label": "F Loyal Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/loyal-contrast.json"
+      },
+      {
+        "label": "F Loyal Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/loyal.json"
+      },
+      {
+        "label": "F Loyal Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/loyal-light.json"
+      },
+      {
+        "label": "F Mauve Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mauve-contrast.json"
+      },
+      {
+        "label": "F Mauve Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mauve.json"
+      },
+      {
+        "label": "F Mauve Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/mauve-light.json"
+      },
+      {
+        "label": "F Mellow Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mellow-contrast.json"
+      },
+      {
+        "label": "F Mellow Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mellow.json"
+      },
+      {
+        "label": "F Mellow Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/mellow-light.json"
+      },
+      {
+        "label": "F Mintchoc Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintchoc-contrast.json"
+      },
+      {
+        "label": "F Mintchoc Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mintchoc.json"
+      },
+      {
+        "label": "F Mintchoc Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/mintchoc-light.json"
+      },
+      {
+        "label": "F Monzo Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monzo-contrast.json"
+      },
+      {
+        "label": "F Monzo Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monzo.json"
+      },
+      {
+        "label": "F Monzo Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/monzo-light.json"
+      },
+      {
+        "label": "F Morass Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/morass-contrast.json"
+      },
+      {
+        "label": "F Morass Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/morass.json"
+      },
+      {
+        "label": "F Morass Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/morass-light.json"
+      },
+      {
+        "label": "F Mud Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mud-contrast.json"
+      },
+      {
+        "label": "F Mud Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mud.json"
+      },
+      {
+        "label": "F Mud Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/mud-light.json"
+      },
+      {
+        "label": "F Newton Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/newton-contrast.json"
+      },
+      {
+        "label": "F Newton Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/newton.json"
+      },
+      {
+        "label": "F Newton Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/newton-light.json"
+      },
+      {
+        "label": "F Otakon Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/otakon-contrast.json"
+      },
+      {
+        "label": "F Otakon Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/otakon.json"
+      },
+      {
+        "label": "F Otakon Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/otakon-light.json"
+      },
+      {
+        "label": "F Overflow Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/overflow-contrast.json"
+      },
+      {
+        "label": "F Overflow Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/overflow.json"
+      },
+      {
+        "label": "F Overflow Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/overflow-light.json"
+      },
+      {
+        "label": "F Pastel Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pastel-contrast.json"
+      },
+      {
+        "label": "F Pastel Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pastel.json"
+      },
+      {
+        "label": "F Pastel Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/pastel-light.json"
+      },
+      {
+        "label": "F Patriot Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/patriot-contrast.json"
+      },
+      {
+        "label": "F Patriot Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/patriot.json"
+      },
+      {
+        "label": "F Patriot Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/patriot-light.json"
+      },
+      {
+        "label": "F Peacock Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peacock-contrast.json"
+      },
+      {
+        "label": "F Peacock Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peacock.json"
+      },
+      {
+        "label": "F Peacock Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/peacock-light.json"
+      },
+      {
+        "label": "F Peacocks In Space Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peacocks-in-space-contrast.json"
+      },
+      {
+        "label": "F Peacocks In Space Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peacocks-in-space.json"
+      },
+      {
+        "label": "F Peacocks In Space Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/peacocks-in-space-light.json"
+      },
+      {
+        "label": "F Peel Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peel-contrast.json"
+      },
+      {
+        "label": "F Peel Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peel.json"
+      },
+      {
+        "label": "F Peel Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/peel-light.json"
+      },
+      {
+        "label": "F Penitent Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/penitent-contrast.json"
+      },
+      {
+        "label": "F Penitent Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/penitent.json"
+      },
+      {
+        "label": "F Penitent Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/penitent-light.json"
+      },
+      {
+        "label": "F Piggy Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/piggy-contrast.json"
+      },
+      {
+        "label": "F Piggy Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/piggy.json"
+      },
+      {
+        "label": "F Piggy Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/piggy-light.json"
+      },
+      {
+        "label": "F Pleasure Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pleasure-contrast.json"
+      },
+      {
+        "label": "F Pleasure Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pleasure.json"
+      },
+      {
+        "label": "F Pleasure Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/pleasure-light.json"
+      },
+      {
+        "label": "F Potpourri Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/potpourri-contrast.json"
+      },
+      {
+        "label": "F Potpourri Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/potpourri.json"
+      },
+      {
+        "label": "F Potpourri Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/potpourri-light.json"
+      },
+      {
+        "label": "F Prime Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prime-contrast.json"
+      },
+      {
+        "label": "F Prime Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prime.json"
+      },
+      {
+        "label": "F Prime Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/prime-light.json"
+      },
+      {
+        "label": "F Rainbow Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rainbow-contrast.json"
+      },
+      {
+        "label": "F Rainbow Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rainbow.json"
+      },
+      {
+        "label": "F Rainbow Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/rainbow-light.json"
+      },
+      {
+        "label": "F Rebellion Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rebellion-contrast.json"
+      },
+      {
+        "label": "F Rebellion Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rebellion.json"
+      },
+      {
+        "label": "F Rebellion Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/rebellion-light.json"
+      },
+      {
+        "label": "F Revelation Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/revelation-contrast.json"
+      },
+      {
+        "label": "F Revelation Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/revelation.json"
+      },
+      {
+        "label": "F Revelation Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/revelation-light.json"
+      },
+      {
+        "label": "F Scorch Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/scorch-contrast.json"
+      },
+      {
+        "label": "F Scorch Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/scorch.json"
+      },
+      {
+        "label": "F Scorch Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/scorch-light.json"
+      },
+      {
+        "label": "F Service Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/service-contrast.json"
+      },
+      {
+        "label": "F Service Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/service.json"
+      },
+      {
+        "label": "F Service Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/service-light.json"
+      },
+      {
+        "label": "F Shrek Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shrek-contrast.json"
+      },
+      {
+        "label": "F Shrek Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shrek.json"
+      },
+      {
+        "label": "F Shrek Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/shrek-light.json"
+      },
+      {
+        "label": "F Slate Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slate-contrast.json"
+      },
+      {
+        "label": "F Slate Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slate.json"
+      },
+      {
+        "label": "F Slate Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/slate-light.json"
+      },
+      {
+        "label": "F Slime Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slime-contrast.json"
+      },
+      {
+        "label": "F Slime Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/slime.json"
+      },
+      {
+        "label": "F Slime Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/slime-light.json"
+      },
+      {
+        "label": "F Snappy Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snappy-contrast.json"
+      },
+      {
+        "label": "F Snappy Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/snappy-light.json"
+      },
+      {
+        "label": "F Snappy Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snappy.json"
+      },
+      {
+        "label": "F Solarflare Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarflare-contrast.json"
+      },
+      {
+        "label": "F Solarflare Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarflare.json"
+      },
+      {
+        "label": "F Solarflare Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/solarflare-light.json"
+      },
+      {
+        "label": "F Soup Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soup-contrast.json"
+      },
+      {
+        "label": "F Soup Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/soup.json"
+      },
+      {
+        "label": "F Soup Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/soup-light.json"
+      },
+      {
+        "label": "F Sourlick Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sourlick-contrast.json"
+      },
+      {
+        "label": "F Sourlick Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sourlick.json"
+      },
+      {
+        "label": "F Sourlick Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/sourlick-light.json"
+      },
+      {
+        "label": "F Spearmint Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spearmint-contrast.json"
+      },
+      {
+        "label": "F Spearmint Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spearmint.json"
+      },
+      {
+        "label": "F Spearmint Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/spearmint-light.json"
+      },
+      {
+        "label": "F Spitfire Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spitfire-contrast.json"
+      },
+      {
+        "label": "F Spitfire Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spitfire.json"
+      },
+      {
+        "label": "F Spitfire Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/spitfire-light.json"
+      },
+      {
+        "label": "F Stark Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stark-contrast.json"
+      },
+      {
+        "label": "F Stark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stark.json"
+      },
+      {
+        "label": "F Stark Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/stark-light.json"
+      },
+      {
+        "label": "F Stasis Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stasis-contrast.json"
+      },
+      {
+        "label": "F Stasis Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stasis.json"
+      },
+      {
+        "label": "F Stasis Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/stasis-light.json"
+      },
+      {
+        "label": "F Stealth Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stealth-contrast.json"
+      },
+      {
+        "label": "F Stealth Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stealth.json"
+      },
+      {
+        "label": "F Stealth Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/stealth-light.json"
+      },
+      {
+        "label": "F Storm Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/storm-contrast.json"
+      },
+      {
+        "label": "F Storm Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/storm.json"
+      },
+      {
+        "label": "F Storm Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/storm-light.json"
+      },
+      {
+        "label": "F Super Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/super-contrast.json"
+      },
+      {
+        "label": "F Super Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/super.json"
+      },
+      {
+        "label": "F Super Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/super-light.json"
+      },
+      {
+        "label": "F Tame Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tame-contrast.json"
+      },
+      {
+        "label": "F Tame Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tame.json"
+      },
+      {
+        "label": "F Tame Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/tame-light.json"
+      },
+      {
+        "label": "F Tetra Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tetra-contrast.json"
+      },
+      {
+        "label": "F Tetra Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tetra.json"
+      },
+      {
+        "label": "F Tetra Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/tetra-light.json"
+      },
+      {
+        "label": "F Tickle Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tickle-contrast.json"
+      },
+      {
+        "label": "F Tickle Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tickle.json"
+      },
+      {
+        "label": "F Tickle Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/tickle-light.json"
+      },
+      {
+        "label": "F Tonic Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tonic-contrast.json"
+      },
+      {
+        "label": "F Tonic Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tonic.json"
+      },
+      {
+        "label": "F Tonic Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/tonic-light.json"
+      },
+      {
+        "label": "F Tribal Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tribal-contrast.json"
+      },
+      {
+        "label": "F Tribal Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tribal.json"
+      },
+      {
+        "label": "F Tribal Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/tribal-light.json"
+      },
+      {
+        "label": "F Tron Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tron-contrast.json"
+      },
+      {
+        "label": "F Tron Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tron.json"
+      },
+      {
+        "label": "F Tron Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/tron-light.json"
+      },
+      {
+        "label": "F Turnip Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/turnip-contrast.json"
+      },
+      {
+        "label": "F Turnip Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/turnip.json"
+      },
+      {
+        "label": "F Turnip Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/turnip-light.json"
+      },
+      {
+        "label": "F Tweed Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tweed-contrast.json"
+      },
+      {
+        "label": "F Tweed Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tweed.json"
+      },
+      {
+        "label": "F Tweed Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/tweed-light.json"
+      },
+      {
+        "label": "F Violaceous Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/violaceous-contrast.json"
+      },
+      {
+        "label": "F Violaceous Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/violaceous.json"
+      },
+      {
+        "label": "F Violaceous Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/violaceous-light.json"
+      },
+      {
+        "label": "F Vision (colorblind) Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vision-colorblind.json"
+      },
+      {
+        "label": "F Vision Light (colorblind) Pro",
+        "uiTheme": "vs",
+        "path": "./themes/vision-light-colorblind.json"
+      },
+      {
+        "label": "F Volatile Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/volatile-contrast.json"
+      },
+      {
+        "label": "F Volatile Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/volatile.json"
+      },
+      {
+        "label": "F Volatile Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/volatile-light.json"
+      },
+      {
+        "label": "F Warlock Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/warlock-contrast.json"
+      },
+      {
+        "label": "F Warlock Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/warlock.json"
+      },
+      {
+        "label": "F Warlock Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/warlock-light.json"
+      },
+      {
+        "label": "F Waste Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/waste-contrast.json"
+      },
+      {
+        "label": "F Waste Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/waste.json"
+      },
+      {
+        "label": "F Waste Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/waste-light.json"
+      },
+      {
+        "label": "F Yitzchok Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yitzchok-contrast.json"
+      },
+      {
+        "label": "F Yitzchok Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yitzchok.json"
+      },
+      {
+        "label": "F Yitzchok Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/yitzchok-light.json"
+      },
+      {
+        "label": "F Userscape Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/userscape-contrast.json"
+      },
+      {
+        "label": "F Userscape Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/userscape.json"
+      },
+      {
+        "label": "F Userscape Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/userscape-light.json"
+      },
+      {
+        "label": "F Vegetable Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vegetable-contrast.json"
+      },
+      {
+        "label": "F Vegetable Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vegetable.json"
+      },
+      {
+        "label": "F Vegetable Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/vegetable-light.json"
+      },
+      {
+        "label": "F Yule Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yule-contrast.json"
+      },
+      {
+        "label": "F Yule Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yule.json"
+      },
+      {
+        "label": "F Yule Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/yule-light.json"
+      },
+      {
+        "label": "F Zacks Contrast Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zacks-contrast.json"
+      },
+      {
+        "label": "F Zacks Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zacks.json"
+      },
+      {
+        "label": "F Zacks Light Pro",
+        "uiTheme": "vs",
+        "path": "./themes/zacks-light.json"
+      },
+      {
+        "label": "F Monokai++",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai++-color-theme.json"
+      },
+      {
+        "label": "F Monokai++ Unified",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai++-Unified-color-theme.json"
+      },
+      {
+        "label": "F Special : React",
+        "uiTheme": "vs-dark",
+        "path": "./themes/react-color-theme.json"
+      },
+      {
+        "label": "F Midnight City",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-city.json"
+      },
+      {
+        "label": "F Midnight City Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-city-soft.json"
+      },
+      {
+        "label": "F Special : Dracula Clean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-clean.json"
+      },
+      {
+        "label": "F Dracula Cleaner",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-cleaner.json"
+      },
+      {
+        "label": "F Special : Mars",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-special-mars-color-theme.json"
+      },
+      {
+        "label": "F Special : Sweet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme-sweet.json"
+      },
+      {
+        "label": "F 2077 Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/2077-theme-color-theme.json"
+      },
+      {
+        "label": "F Snap - Aster Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-snap-aster-red.json"
+      },
+      {
+        "label": "F Snap - Aster Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-snap-aster-green.json"
+      },
+      {
+        "label": "F Snap - Rainbow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-snap-rainbow.json"
+      },
+      {
+        "label": "F Snap - Rainbow Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-snap-rainbow-bro.json"
+      },
+      {
+        "label": "F Snap - Night Owl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-snap-night-owl.json"
+      },
+      {
+        "label": "F Special Material Theme",
+        "path": "./themes/Royal-Material-Theme-Default.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special Material Theme High Contrast",
+        "path": "./themes/Royal-Material-Theme-Default-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special Material Theme Darker",
+        "path": "./themes/Royal-Material-Theme-Darker.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special Material Theme Darker High Contrast",
+        "path": "./themes/Royal-Material-Theme-Darker-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special Material Theme Palenight",
+        "path": "./themes/Royal-Material-Theme-Palenight.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special Material Theme Palenight High Contrast",
+        "path": "./themes/Royal-Material-Theme-Palenight-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special Material Theme Ocean",
+        "path": "./themes/Royal-Material-Theme-Ocean.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special Material Theme Ocean High Contrast",
+        "path": "./themes/Royal-Material-Theme-Ocean-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special Material Theme Lighter",
+        "path": "./themes/Royal-Material-Theme-Lighter.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "F Special Material Theme Lighter High Contrast",
+        "path": "./themes/Royal-Material-Theme-Lighter-High-Contrast.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "F Material Theme :",
+        "path": "./themes/Material-Theme-Default.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : High Contrast",
+        "path": "./themes/Material-Theme-Default-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : Darker",
+        "path": "./themes/Material-Theme-Darker.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : Darker High Contrast",
+        "path": "./themes/Material-Theme-Darker-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : Palenight",
+        "path": "./themes/Material-Theme-Palenight.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : Palenight High Contrast",
+        "path": "./themes/Material-Theme-Palenight-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : Ocean",
+        "path": "./themes/Material-Theme-Ocean.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : Ocean High Contrast",
+        "path": "./themes/Material-Theme-Ocean-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : Deepforest",
+        "path": "./themes/Material-Theme-Deepforest.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : DeepForest High Contrast",
+        "path": "./themes/Material-Theme-Deepforest-High-Contrast.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Material Theme : Lighter",
+        "path": "./themes/Material-Theme-Lighter.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "F Material Theme : Lighter High Contrast",
+        "path": "./themes/Material-Theme-Lighter-High-Contrast.json",
+        "uiTheme": "vs"
+      },
+      {
+        "label": "F Omni Owl",
+        "path": "./themes/Omni Owl.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Omni Owl (Minimal Italics)",
+        "path": "./themes/Omni Owl (Minimal Italics).json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  }
 }
