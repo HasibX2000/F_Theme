@@ -2562,6 +2562,106 @@
         "label": "F Omni Owl (Minimal Italics)",
         "path": "./themes/Omni Owl (Minimal Italics).json",
         "uiTheme": "vs-dark"
+      },
+      {
+        "label": "F Special : Henna",
+        "uiTheme": "vs-dark",
+        "path": "./themes/henna-color-theme.json"
+      },
+      {
+        "label": "F Electron vue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/electron-vue-color-theme.json"
+      },
+      {
+        "label": "F Electron vue darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/electron-vue-darker-color-theme.json"
+      },
+      {
+        "label": "F Special : Arzus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arzus.tmTheme"
+      },
+      {
+        "label": "F Special : Arzus-Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arzus-Gray.tmTheme"
+      },
+      {
+        "label": "F Special : Arzus-Alternate",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arzus-Alternate.tmTheme"
+      },
+      {
+        "label": "F Special : Arzus-Alternate-Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arzus-Alternate-Gray.tmTheme"
+      },
+      {
+        "label": "F Special : Arzus-Light",
+        "uiTheme": "vs",
+        "path": "./themes/Arzus-Light.tmTheme"
+      },
+      {
+        "label": "F Special : Arzus-Pastel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arzus-Pastel.tmTheme"
+      },
+      {
+        "label": "F Special : Arzus-Prime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arzus-Prime.tmTheme"
+      },
+      {
+        "label": "F Special : Arzus-Prime-Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arzus-Prime-Gray.tmTheme"
+      },
+      {
+        "label": "F Goop 64",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Goop-64-color-theme.json"
+      },
+      {
+        "label": "F Goop Amber",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Goop-Amber-color-theme.json"
+      },
+      {
+        "label": "F Goop Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Goop-Blue-color-theme.json"
+      },
+      {
+        "label": "F Goop Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Goop-Gray-color-theme.json"
+      },
+      {
+        "label": "F Goop Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Goop-Green-color-theme.json"
+      },
+      {
+        "label": "F Goop Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Goop-Red-color-theme.json"
+      },
+      {
+        "label": "F Goop Paper",
+        "uiTheme": "vs",
+        "path": "./themes/Goop-Paper-color-theme.json"
+      },
+      {
+        "label": "F Special : Legend Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Legendary-Dark-color-theme.json"
+      },
+      {
+        "label": "F Special : Hacker Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark hacker theme-color-theme.json"
       }
     ]
   }
