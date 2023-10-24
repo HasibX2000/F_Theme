@@ -1,7 +1,7 @@
 {
   "name": "f-theme",
   "displayName": "F Theme",
-  "description": "Theme for pros",
+  "description": "All theme in one place",
   "publisher": "Hasibur Rahman",
   "version": "0.0.1",
   "engines": {
@@ -2662,6 +2662,996 @@
         "label": "F Special : Hacker Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark hacker theme-color-theme.json"
+      },
+      {
+        "label": "F Violet Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/violet-midnight.json"
+      },
+      {
+        "label": "F Violet Midnight Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/violet-midnight-italic.json"
+      },
+      {
+        "label": "F Monokai Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Pro.json"
+      },
+      {
+        "label": "F Monokai Pro (Filter Octagon)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Pro (Filter Octagon).json"
+      },
+      {
+        "label": "F Monokai Pro (Filter Ristretto)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Pro (Filter Ristretto).json"
+      },
+      {
+        "label": "F Monokai Pro (Filter Spectrum)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Pro (Filter Spectrum).json"
+      },
+      {
+        "label": "F Monokai Pro (Filter Machine)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Pro (Filter Machine).json"
+      },
+      {
+        "label": "F Monokai Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Classic.json"
+      },
+      {
+        "label": "F Atlantic Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/atlantic-night-main-theme.json"
+      },
+      {
+        "label": "F Atlantic Night - Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/atlantic-night-abyss-theme.json"
+      },
+      {
+        "label": "F Flat UI Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flat-ui-master.json"
+      },
+      {
+        "label": "F Flat UI Material",
+        "uiTheme": "vs-dark",
+        "path": "./themes/flat-ui-material.json"
+      },
+      {
+        "label": "F Special : Jellyfish",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jellyfish.json"
+      },
+      {
+        "label": "F Special : Beautiful Dracula Normal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-normal.json"
+      },
+      {
+        "label": "F Beautiful Dracula Normal - No Highlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-normal-no-sematic.json"
+      },
+      {
+        "label": "F Special : Beautiful Dracula Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-darker.json"
+      },
+      {
+        "label": "F Beautiful Dracula Darker - No Highlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula-darker-no-sematic.json"
+      },
+      {
+        "label": "Warfaze Edition : Anthracite - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-anthracite-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Alcatraz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-alcatraz-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Aquamarine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-aquamarine-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Black Pond Has My Heart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-black-pond-has-my-heart-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Klimt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-klimt-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Kronos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-kronos-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Meabh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-meabh-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Moai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-moai-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Morion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-morion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Mystic River",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-mystic-river-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Sulfur",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-sulfur-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Cold - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-cold-viserion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Deep Sea - Aquamarine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-deepsea-aquamarine-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Deep Sea - Morion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-deepsea-morion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Deep Sea - Mystic River",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-deepsea-mystic-river-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Deep Sea - Sulfur",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-deepsea-sulfur-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Deep Sea - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-deepsea-viserion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : EclipseDS - Black Pond Has My Heart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-eclipseds-black-pond-has-my-heart-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : EclipseDS - Klimt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-eclipseds-klimt-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : EclipseDS - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-eclipseds-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : EclipseDS - Kronos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-eclipseds-kronos-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : EclipseDS - Meabh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-eclipseds-meabh-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : EclipseDS - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-eclipseds-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Black Pond Has My Heart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-black-pond-has-my-heart-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Burn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-burn-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Klimt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-klimt-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Kronos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-kronos-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Meabh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-meabh-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Moai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-moai-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Mystic River",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-mystic-river-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Equinox - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-equinox-viserion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Alcatraz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-alcatraz-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Aquamarine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-aquamarine-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Black Pond Has My Heart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-black-pond-has-my-heart-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Klimt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-klimt-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Kronos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-kronos-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Meabh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-meabh-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Moai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-moai-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Morion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-morion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Mystic River",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-mystic-river-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Sulfur",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-sulfur-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Flat - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-flat-viserion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Black Pond Has My Heart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-black-pond-has-my-heart-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Burn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-burn-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Kronos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-kronos-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Meabh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-meabh-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Moai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-moai-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Mystic River",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-mystic-river-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Insomnia - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-insomnia-viserion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Low Blue - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-lowblue-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Midnight - Klimt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-midnight-klimt-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Midnight - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-midnight-viserion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Alcatraz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-alcatraz-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Aquamarine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-aquamarine-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Black Pond Has My Heart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-black-pond-has-my-heart-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Burn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-burn-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Klimt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-klimt-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Kronos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-kronos-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Meabh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-meabh-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Moai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-moai-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Morion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-morion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Mystic River",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-mystic-river-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Sulfur",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-sulfur-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nadir - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nadir-viserion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Alcatraz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-alcatraz-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Black Pond Has My Heart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-black-pond-has-my-heart-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Burn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-burn-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Klimt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-klimt-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Kronos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-kronos-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Meabh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-meabh-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Moai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-moai-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Mystic River",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-mystic-river-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Nirvana - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-nirvana-viserion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Alcatraz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-alcatraz-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Aquamarine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-aquamarine-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Black Pond Has My Heart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-black-pond-has-my-heart-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Klimt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-klimt-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Komodo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-komodo-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Kronos",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-kronos-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Meabh",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-meabh-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Moai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-moai-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Morion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-morion-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Mystic River",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-mystic-river-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-obsidian-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Sulfur",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-sulfur-color-theme.json"
+      },
+      {
+        "label": "Warfaze Edition : Warm - Viserion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/f-warfaze-dark-matter-warm-viserion-color-theme.json"
+      },
+      {
+        "label": "F Special : JellyFish",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JellyFish.json"
+      },
+      {
+        "label": "F Special : Dracula Sweet Edition",
+        "uiTheme": "vs-dark",
+        "path": "theme/sweetdracula-color-theme.json"
+      },
+      {
+        "label": "F Hunter Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneHunter-Classic-color-theme.json"
+      },
+      {
+        "label": "F Hunter Theme Material",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneHunter-Material-color-theme.json"
+      },
+      {
+        "label": "F Hunter Theme Vercel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneHunter-Vercel-color-theme.json"
+      },
+      {
+        "label": "F Hunter Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/OneHunter-Light-color-theme.json"
+      },
+      {
+        "label": "F Hunter Flexoki Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OneHunter-Flexoki-Dark-color-theme.json"
+      },
+      {
+        "label": "F Hunter Flexoki Light",
+        "uiTheme": "vs",
+        "path": "./themes/OneHunter-Flexoki-Light-color-theme.json"
+      },
+      {
+        "label": "F Flexoki Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Flexoki-Dark-color-theme.json"
+      },
+      {
+        "label": "Flexoki Light",
+        "uiTheme": "vs",
+        "path": "./themes/Flexoki-Light-color-theme.json"
+      },
+      {
+        "label": "F Special : AMOLED Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/amoled-dark-color-theme.json"
+      },
+      {
+        "label": "F AMOLED Black Shiny",
+        "uiTheme": "vs-dark",
+        "path": "./themes/amoled-dark-shiny-color-theme.json"
+      },
+      {
+        "label": "F Special : Monokai Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Vibrant-color-theme.json"
+      },
+      {
+        "label": "F Special : Rainbow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rainbow-color-theme.json"
+      },
+      {
+        "label": "F Rainbow Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rainbow-Dark-color-theme.json"
+      },
+      {
+        "label": "F Rainbow Extended",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rainbow-Extended-color-theme.json"
+      },
+      {
+        "label": "RF ainbow Syntax Highlighter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rainbow-Syntax-Highlighter-color-theme.json"
+      },
+      {
+        "label": "F Encore Next -A00- Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A00.json"
+      },
+      {
+        "label": "F Encore Next -A01- Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A01.json"
+      },
+      {
+        "label": "F Encore Next -A02- Bunker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A02.json"
+      },
+      {
+        "label": "F Encore Next -A03- Mirage",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A03.json"
+      },
+      {
+        "label": "F Encore Next -A04- Cobalt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A04.json"
+      },
+      {
+        "label": "F Encore Next -A05- Jaguar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A05.json"
+      },
+      {
+        "label": "F Encore Next -A06- Amethyst",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A06.json"
+      },
+      {
+        "label": "F Encore Next -A07- Oxford",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A07.json"
+      },
+      {
+        "label": "F Encore Next -A08- Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A08.json"
+      },
+      {
+        "label": "F Encore Next -A09- Arc Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A09.json"
+      },
+      {
+        "label": "F Encore Next -A10- Adapta Nokto",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-A10.json"
+      },
+      {
+        "label": "F Encore Next -B01- Hard",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-B01.json"
+      },
+      {
+        "label": "F Encore Next -B02- Medium",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-B02.json"
+      },
+      {
+        "label": "F Encore Next -B03- Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-B03.json"
+      },
+      {
+        "label": "F Encore Pro -X01- Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C01.json"
+      },
+      {
+        "label": "F Encore Pro -X02- Indigo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C02.json"
+      },
+      {
+        "label": "F Encore Pro -X03- Cupcake",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C03.json"
+      },
+      {
+        "label": "F Encore Pro -X04- Material",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C04.json"
+      },
+      {
+        "label": "F Encore Pro -X05- Electron",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C05.json"
+      },
+      {
+        "label": "F Encore Pro -X06- Ayu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C06.json"
+      },
+      {
+        "label": "F Encore Pro -X07- One",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C07.json"
+      },
+      {
+        "label": "F Encore Pro -X08- Darcula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C08.json"
+      },
+      {
+        "label": "F Encore Pro -X09- Eve",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Encore-C09.json"
+      },
+      {
+        "label": "F Cheers Game",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Karma-color-theme.json"
+      },
+      {
+        "label": "F Neon Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neon Dark Theme-color-theme.json"
+      },
+      {
+        "label": "F Special Synthwave x Fluoromachine & epic animations",
+        "uiTheme": "vs-dark",
+        "path": "./themes/synthwave-x-fluoromachine.json"
+      },
+      {
+        "label": "F Tinacious Design",
+        "uiTheme": "vs-dark",
+        "path": "/themes/Tinacious Design-color-theme.json"
+      },
+      {
+        "label": "F Tinacious Design (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/Tinacious Design (Light)-color-theme.json"
+      },
+      {
+        "label": "F Tinacious Design (legacy, 2016)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tinacious-Design.tmTheme"
+      },
+      {
+        "label": "F Tinacious Design (Light)  (legacy, 2017)",
+        "uiTheme": "vs",
+        "path": "./themes/Tinacious-Design-Light.tmTheme"
+      },
+      {
+        "label": "F Tinacious Design (High Contrast)",
+        "uiTheme": "vs-dark",
+        "path": "/themes/Tinacious-Design-High-Contrast-color-theme.json"
+      },
+      {
+        "label": "F Special : Panda Syntax",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Panda.json"
+      },
+      {
+        "label": "F Bluloco Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bluloco-dark-color-theme.json"
+      },
+      {
+        "label": "F Bluloco Dark Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bluloco-dark-italic-color-theme.json"
+      },
+      {
+        "label": "F Matrix Hacker Edition",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Matrix-color-theme.json"
+      },
+      {
+        "label": "F Special : Neon Glow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kabukicho-color-theme.json"
+      },
+      {
+        "label": "F Palenight Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight.json"
+      },
+      {
+        "label": "F Palenight Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight-italic.json"
+      },
+      {
+        "label": "F Palenight Operator",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight-operator.json"
+      },
+      {
+        "label": "F Palenight (Mild Contrast)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight-mild-contrast.json"
+      },
+      {
+        "label": "F Signature Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-dark-color-theme.json"
+      },
+      {
+        "label": "F Signature Ultramarine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-ultramarine-color-theme.json"
+      },
+      {
+        "label": "F Signature Inkstone",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-inkstone-color-theme.json"
+      },
+      {
+        "label": "F Signature Leipzig",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-leipzig-color-theme.json"
+      },
+      {
+        "label": "F Signature Eggplant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-eggplant-color-theme.json"
+      },
+      {
+        "label": "F Signature Grizzly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-grizzly-color-theme.json"
+      },
+      {
+        "label": "F Signature Eucalyptus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-eucalyptus-color-theme.json"
+      },
+      {
+        "label": "F Signature Citadel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-citadel-color-theme.json"
+      },
+      {
+        "label": "F Signature Ornithopter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-ornithopter-color-theme.json"
+      },
+      {
+        "label": "F Signature Neptune",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-neptune-color-theme.json"
+      },
+      {
+        "label": "F Signature Ox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-ox-color-theme.json"
+      },
+      {
+        "label": "F Signature Emerald",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-emerald-color-theme.json"
+      },
+      {
+        "label": "F Signature Floresta",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-floresta-color-theme.json"
+      },
+      {
+        "label": "F Signature Light",
+        "uiTheme": "vs",
+        "path": "./themes/default/Signature-light-color-theme.json"
+      },
+      {
+        "label": "F Signature Frost",
+        "uiTheme": "vs",
+        "path": "./themes/default/Signature-frost-color-theme.json"
+      },
+      {
+        "label": "F Signature Crimson",
+        "uiTheme": "vs",
+        "path": "./themes/default/Signature-crimson-color-theme.json"
+      },
+      {
+        "label": "F Signature Genmaicha",
+        "uiTheme": "vs",
+        "path": "./themes/default/Signature-genmaicha-color-theme.json"
+      },
+      {
+        "label": "F Signature Haze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-haze-color-theme.json"
+      },
+      {
+        "label": "F Signature Mist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-mist-color-theme.json"
+      },
+      {
+        "label": "F Signature Terabyte",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-terabyte-color-theme.json"
+      },
+      {
+        "label": "F Signature Yesterday",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-yesterday-color-theme.json"
+      },
+      {
+        "label": "F Signature Machine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-machine-color-theme.json"
+      },
+      {
+        "label": "F Signature Wolf",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-wolf-color-theme.json"
+      },
+      {
+        "label": "F Signature Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-black-color-theme.json"
+      },
+      {
+        "label": "F Signature Zenith",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default/Signature-zenith-color-theme.json"
+      },
+      {
+        "label": "F Homebrew Hacker Edition",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Homebrew-color-theme.json"
       }
     ]
   }
